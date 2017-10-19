@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+header {
+  width: 100%;
+  height: 1.71rem;
+  background: url("img/barent.png") no-repeat;
+  background-size: 100% 1.71rem;
+  display: flex;
+  justify-content: space-around; }
+  header div {
+    width: 2rem;
+    height: 0.28rem;
+    display: flex;
+    align-items: center;
+    background: #FCF8F5;
+    margin-top: 0.15rem;
+    border-radius: 0.15rem;
+    opacity: 0.9; }
+    header div img {
+      width: 0.18rem;
+      height: 0.18rem;
+      margin-left: 0.07rem;
+      color: #989898; }
+    header div input {
+      height: 0.25rem;
+      background: #FCF8F5;
+      margin-left: 0.07rem;
+      width: 80%;
+      border: none;
+      font-size: 0.135rem; }
+
+.menu {
+  width: 100%;
+  height: 1.375rem;
+  font-size: 0.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  color: #7D7D7D; }
+  .menu li {
+    width: 20%; }
+  .menu img {
+    width: 0.34rem;
+    height: 0.34rem; }
+
+.warp {
+  width: 100%;
+  height: 0.325rem;
+  font-size: 0.14rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #7D7D7D; }
+  .warp span {
+    margin-left: 0.17rem; }
+
+.main-top {
+  width: 100%;
+  height: 0.70rem;
+  font-size: 0.16rem;
+  display: flex; }
+  .main-top > div:nth-child(1) {
+    width: 1.20rem;
+    height: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .main-top > div:nth-child(1) img {
+      width: 0.985rem;
+      height: 0.63rem; }
+  .main-top > div:nth-child(2) {
+    width: 2.535rem;
+    height: 0.59rem;
+    margin-top: 0.11rem;
+    margin-left: 0.05rem; }
+    .main-top > div:nth-child(2) span {
+      font-size: 0.14rem;
+      color: #7D7D7D; }
+    .main-top > div:nth-child(2) p {
+      font-size: 0.11rem;
+      color: #BEBEBE; }
+
+.main-buttom {
+  width: 100%;
+  height: 0.62rem;
+  display: flex;
+  justify-content: space-around; }
+  .main-buttom img {
+    width: 1.125rem;
+    height: 0.62rem; }
+
+footer {
+  width: 100%;
+  height: 0.495rem;
+  font-size: 0.10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: #7D7D7D; }
+  footer img {
+    width: 0.23rem;
+    height: 0.23rem; }
+
+/*# sourceMappingURL=index.css.map */
